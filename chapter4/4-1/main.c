@@ -8,6 +8,6 @@ int main(void)
     length = 2 * PI * radius; /* 计算圆的周长 */
     area = PI * radius * radius; /* 计算圆的面积 */
     printf("radius = %f\n", radius); /* 输出圆的半径 */
-    printf("length = %7.2f, area = %7.2f\n", length, area);
+    printf("length = %7.2f, area = %7.2f\n", length, area); /* 输出圆的周长和面积 */
     return 0;
 }
