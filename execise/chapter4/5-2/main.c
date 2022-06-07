@@ -1,10 +1,10 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void)
 {
 	int i, year, month, dayOfMonth, dayOfYear = 0, leap = 0;
 
-	printf("ÇëÊäÈëÄêÔÂÈÕ£¬ÀıÈç£º2019 4 9\n");
+	printf("è¯·è¾“å…¥å¹´æœˆæ—¥ï¼Œä¾‹å¦‚ï¼š2019 4 9\n");
 	scanf("%d %d %d", &year, &month, &dayOfMonth);
 
 	leap = year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
@@ -34,7 +34,7 @@ int main(void)
 
 	dayOfYear += dayOfMonth;
 
-	printf("ÕâÒ»ÌìÊÇ¸ÃÄêµÄµÚ%dÌì\n", dayOfYear);
+	printf("è¿™ä¸€å¤©æ˜¯è¯¥å¹´çš„ç¬¬%då¤©\n", dayOfYear);
 
 	return 0;
 }

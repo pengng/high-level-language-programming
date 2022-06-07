@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 #include<math.h>
 int main(void)
 {
@@ -10,7 +10,7 @@ int main(void)
 	{
 		t = (a + b + c) / 2;
 		s = sqrt(t * (t - a) * (t - b) * (t - c));
-		printf("¸ÃÈı½ÇĞÎÃæ»ıÊÇ£º%lf", s);
+		printf("è¯¥ä¸‰è§’å½¢é¢ç§¯æ˜¯ï¼š%lf", s);
 	}
 	else
 	{

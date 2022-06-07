@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 int main(void)
 {
 	int balls = 2044;
@@ -10,7 +10,7 @@ int main(void)
 		count++;
 	}
 
-	printf("%d´ÎÈ¡ÍêÈ«²¿Ğ¡Çò\n", count);
+	printf("%dæ¬¡å–å®Œå…¨éƒ¨å°çƒ\n", count);
 
 	return 0;
 }
