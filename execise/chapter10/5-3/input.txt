@@ -1,0 +1,10 @@
+1 Deborah 70 44 34
+2 Scott 73 17 65
+3 Karen 51 17 22
+4 Anthony 73 13 67
+5 Susan 35 9 8
+6 Mary 6 46 4
+7 Kimberly 86 66 92
+8 Robert 83 15 6
+9 Ronald 72 25 60
+10 Kenneth 42 38 18

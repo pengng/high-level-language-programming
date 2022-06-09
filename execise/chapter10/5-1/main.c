@@ -5,19 +5,17 @@ int isprime(int x);
 
 int main(void)
 {
-	int a, b, i, n = 0, sum = 0;
+	int i;
+	FILE *fp = fopen("prime.txt", "w");
 
-	scanf("%d %d", &a, &b);
-
-	for (i = a; i <= b; i++)
+	for (i = 1; i <= 1000; i++)
 	{
-		if (isprime(i)) {
-			n++;
-			sum += i;
+		if (isprime(i))
+		{
+			fprintf(fp, "%d\n", i);
 		}
 	}
-
-	printf("%d %d", n, sum);
+	fclose(fp);
 
 	return 0;
 }
